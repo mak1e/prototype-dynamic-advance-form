@@ -12,18 +12,37 @@ on the html for each programme.
 In the backoffice, the administrators can view and add programmes: 
 http://localhost:1337/programme/view
 
+* * *
 
 ![Alt text](http://i.imgur.com/ZYpelfB.jpg)
 
+* * *
 
 and when the programme is clicked. The details will be displayed, showing all the fields that has been setup.
 Fields as broken into sections, administrator can add a section and add a field within a section.
 
+* * *
+
 ![Alt text](http://i.imgur.com/iJlTiT2.jpg)
 
-The application can spit out a json equivalent of the details of the programme by adding ####&isRest=true
+* * *
+
+The application can spit out a json equivalent of the details of the programme by adding #### &isRest=true
 parameter on the url.
+
+* * *
 
 ![Alt text](http://i.imgur.com/H2jIgg4.jpg)
 
+* * *
 
+On the front end side, you only need to pass the programme Id and the template and the form will automatically
+display the form.
+
+this is how the client script look like:
+
+* * *
+
+![Alt text](http://i.imgur.com/kRzkS6t.jpg)
+
+* * *
