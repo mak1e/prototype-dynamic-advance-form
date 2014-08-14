@@ -51,6 +51,14 @@ this is how the client script look like:
 
 **understanding the parameter:**
 
+the engine will take two parameters:
+
+pass the programme id:
+
+*data: {Id: 1013, isRest: true},*
+
+pass which template:
+
 *var template = $("#template-gasp").html();* 
 
 the code above is actually pointing to a template file, for this case gasp.html, each template file can be the advanced form, e.g. gasp.
