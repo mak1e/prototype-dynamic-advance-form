@@ -74,7 +74,7 @@ the rendered form **http://localhost:1337/advanceform/view** :
 
 * * *
 
-![Alt text](http://i.imgur.com/cVq5BZX.jpg)
+![Alt text](http://i.imgur.com/zc9nFLh.jpg)
 
 * * *
 
