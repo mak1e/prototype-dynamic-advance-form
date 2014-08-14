@@ -23,11 +23,11 @@ Fields as broken into sections, administrator can add a section and add a field 
 
 * * *
 
-![Alt text](http://i.imgur.com/iJlTiT2.jpg)
+![Alt text](http://i.imgur.com/zocwwNS.jpg)
 
 * * *
 
-The application can spit out a json equivalent of the details of the programme by adding #### &isRest=true
+The application can spit out a json equivalent of the details of the programme by adding **&isRest=true**
 parameter on the url.
 
 * * *
@@ -46,3 +46,15 @@ this is how the client script look like:
 ![Alt text](http://i.imgur.com/kRzkS6t.jpg)
 
 * * *
+
+**understanding the parameter:**
+
+*var template = $("#template-gasp").html();* 
+
+the code above is actually pointing to a template file, for this case gasp.html, each template file can be the advanced form, e.g. gasp.
+this is a mustache template, the template will consume the JSON and iterate on the fields and will automatically displays them, leaving
+only the specific to the form will be needed to be coded e.g. for gasp decision support, etc.. 
+
+* * *
+
+![Alt text](http://i.imgur.com/Sk6oeFy.jpg)
