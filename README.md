@@ -6,11 +6,13 @@ The purpose of this prototype is to demostrate how the advanced forms can dynami
 fields of the programme on a administration page and by simply applying a template without the trouble coding the fields
 on the html for each programme.
 
+This is written in Node JS using Sails MVC and mustache for templating on the front-end.
+
 
 ### Administration Page
 
 In the backoffice, the administrators can view and add programmes: 
-http://localhost:1337/programme/view
+**http://localhost:1337/programme/view**
 
 * * *
 
@@ -58,3 +60,20 @@ only the specific to the form will be needed to be coded e.g. for gasp decision 
 * * *
 
 ![Alt text](http://i.imgur.com/Sk6oeFy.jpg)
+
+
+the rendered form **http://localhost:1337/advanceform/view** :
+
+* * *
+
+[Imgur](http://i.imgur.com/cVq5BZX.jpg)
+
+* * *
+
+### TODO
+
+1. Create a REST that template can consume to save the data from the form.
+
+
+
+
